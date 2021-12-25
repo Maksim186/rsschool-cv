@@ -22,7 +22,7 @@ console.log (i)
 console.log (i)
 ```
 ## Experience ##
-I did not take courses related to front-end development, I study it myself from lessons on YouTube and books.
+I did not take courses related to front-end development, I study it myself from video lessons on YouTube and books.
 ## Education##
 Gomel State Technical University named after P.O. Sukhoi with a degree in power engineer
  ## English ##
