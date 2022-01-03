@@ -1,0 +1,278 @@
+body {
+    display: block;
+    width: 100%;
+    max-width: 1360px;
+    margin: 0;
+    font-family: lato;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* HEADER ==============================================*/
+
+.header_container {
+    display: flex;
+    background-color: rgb(212, 199, 14);
+    width: 100%;
+}
+
+.header_photo {
+    display: flex;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
+
+.header_photoin {
+    width: 100%;
+}
+
+.header_content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.header_info {
+background-color: rgb(255, 255, 255);
+}
+
+.hmenu {
+    width: 100%;
+    display: flex;
+}
+
+.hmenu_list {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    list-style: none;
+    padding: 10px;
+    justify-content:flex-start;
+}
+
+.menu_link {
+margin-right: 15px;
+font-weight: bold;
+text-decoration: none;
+}
+
+.menu_link:hover {
+    text-decoration: underline;
+}
+
+.name {
+    padding: 5px 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.name_title {
+    padding: 0 20px;
+    margin: 0;
+    font-weight: 700;
+}
+
+/*     тело сайта и сайдбар===============================*/
+
+.main_container {
+    display: flex;
+    width: 100%;
+    max-width: 1360px;
+}
+
+.text_underline {
+    text-decoration: underline;
+    color: white;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(63, 63, 62);
+}
+
+.main {
+    width: 70%;
+    background-color: rgb(201, 231, 166);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+/* code example==================================== */
+
+.code {
+    width: 100%;
+}
+
+.pre {
+  display: flex; 
+    margin: 0;
+    background-color: white;
+}
+
+.let {
+    color: red;
+}
+
+.equal {
+    color: red;
+}
+
+.fruit {
+    color: rgb(39, 206, 75);
+}
+
+.push {
+    color: rgb(43, 55, 223);
+}
+
+/* CONTACTS===============================================*/
+
+.contacts {
+}
+
+/* .head-contacts {
+    width: 100%;
+    height: 20px;
+    background-color: tomato;
+
+} */
+
+.contacts_item {
+    list-style: none;
+    padding-left: 5px;
+}
+
+.contact_link {
+    text-decoration: none;
+    /* padding-left: 10px ; */
+    color: white;
+    padding-bottom: 20px;
+}
+
+.contact_link:hover {
+    text-decoration: underline;
+}
+
+.icon {
+    margin-right: 0;
+    width: 80px;
+    height: 80px;
+}
+
+.icon_rs {
+    margin-right: 0;
+    width: 150px;
+    height: 150px;
+}
+
+.contact_email {
+    display: flex;
+    align-items: center;
+    background-image: url(mail.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center;
+    padding: 15px 0 15px 35px;
+    color: white;
+}
+
+.contact_phone {
+    display: flex;
+    align-items: center;
+    background-image: url(tel.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left center;
+    padding: 15px 0 15px 35px;
+    color: white;
+}
+
+/* .contact_icon {
+    padding: 10px; 
+} */
+
+/* SKILLS==================================*/
+
+.skills_item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 5px;
+}
+
+.skill_html {
+    display: flex;
+    align-items: center;
+    background-image: url(html.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+    padding: 20px 0 20px 40px;
+    color: white;
+}
+
+.skill_css {
+    display: flex;
+    background-image: url(css.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+    padding: 20px 0 20px 40px;
+    color: white;
+}
+
+.skill_git {
+    display: flex;
+    background-image: url(github.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+    padding: 20px 0 20px 45px;
+    color: white;
+}
+
+.skill_js {
+    display: flex;
+    background-image: url(javascript.svg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position: left center;
+    padding: 20px 0 20px 43px;
+    color: white;
+}
+
+
+/* FOOTER=================================== */
+.footer_container {
+    width: 100%;
+    background-color: rgb(212, 199, 14);
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_github {   
+}
+
+.footer_rs {
+}
+
