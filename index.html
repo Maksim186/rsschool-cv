@@ -1,79 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset ="UTF-8">
- <meta name="viewport" content="widht=device-widht, ihitial-scale=1.0">
- <link rel="stylesheet" href="style.css">
- <title> Sebik CV RSS </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MyFirstCV</title>
 </head>
- <body>
+<body>
+    <header class="header">  
 
- <div class="container">
-     <aside class="aside">
-         <div class="photo">
-             <img class="img" src="img/photo.png" alt ="photo">
+     <div class="header_container">
+
+        <div class="header_photo">
+          <img src="photocv408.jpg" alt="myPhotoForCv" class="header_photoin">
+        </div>
+
+         <div class="header_content">
+
+           <nav class="hmenu"> 
+               <ul class="hmenu_list">
+
+                   <li class="menu_item">
+                       <a href="#about" class="menu_link"> About </a>
+                   </li>
+
+                   <li class="menu_item">
+                       <a href="#education" class="menu_link"> Education </a>
+                   </li>
+
+                   <li class="menu_item">
+                    <a  href="#languages" class="menu_link"> Languages </a>
+                   </li>
+
+                   <li class="menu_item">
+                       <a href="#code" class="menu_link"> Code </a>
+                   </li>
+
+                   <li class="menu_item">
+                       <a href="#projects" class="menu_link"> My Future Projects </a>
+                   </li>
+
+               </ul>
+           </nav>
+
+           <div class="header_info"> 
+               <h1 class="name"> Maksim Sebik</h1>
+               <h2 class="name_title"> Engineer now, developer in the future </h2>
+           </div>
+
          </div>
 
-<section class="name">
- <h2> Maksim Sebik</h2>
-    <div class="beginer">
-        Beginner Front-end developer
      </div>
-</section>
-<section class="education">
-    <h2> EDUCATION</h2>
-    <div class="univercity">
-        Gomel State Technical University named after P.O.Sukhoi
-        <p class="speciality"> Power Engineering & Supply </p>
-    </div>
-</section>        
-<section class="Education">
-    <h2> EDUCATION</h2>
-    <div class="univercity">
-        Gomel State Technical University named after P.O.Sukhoi
-        <p class="speciality"> Power Engineering & Supply </p>
-    </div>
-</section>
-<section>
-    <h2>CONTACTS</h2>
-    <ul>
-        <li><a href="tel:+375445997759">Mobile phone +375445997759</a></li>
-        <li><a href="mailto:sebikmaks@mail.ru">E-mail</a></li>
-        <li><a href="https://t.me/Surgeon_MS">Telegram</a></li>
-    </ul>
-</section>
-<section>
-    <h2>SKILLS</h2>
-    <ul>
-        <li class="skills-html">HTML</li>
-        <li class="skills-CSS">CSS</li>
-        <li class="skills-JS">JavaScript</li>
-        <li class="skills-GH">GitHub</li>
-    </ul>
-</section>
-     </aside>
-<main>
-    <section class="aboutme">
-        <h2> About myself</h2>
-        <p class="aboutme"> I am 26 years old, I work as an inspector in the 
-            field of industrial safety, previously I worked as a commissioning 
-            engineer for gas-using equipment. Currently studying Front-end development 
-            and learning English. My strengths are hard work, 
-            the ability to work in a team, a high-quality solution to all tasks. </p>
-        <p class="aboutme"> text </p>
-        <p class="aboutme"> text </p>
-        <p class="aboutme"> text </p>
-    </section>
-    <section class="lang">
-        <h2> Languages</h2>
-        <ul>
-            <li>Russian (Native)</li>
-            <li>English A1</li>
-        </ul>
-    </section>
-</main>
+    </header>
+
+    <div class="main_container">
+        
+        <aside class="sidebar">
+            <section class="contacts">
+                <h3 class="text_underline"> CONTACTS </h3>
+                <ul class="contacts_item">
+
+                    <!-- <li>
+                        <a class="contact_link" href="mailto:sebikmaks@mai.ru">
+                            <img class="contact_icon" src="mail.svg" alt="icon">E-mail
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="contact_link" href="tel:+375445997759">
+                            <img class="contact_icon" src="tel.svg" alt="icon">Phone
+                        </a>
+                    </li> -->
+
+                    <li class="contact_email"> E-mail : sebikmaks@mai.ru</li>
+                    <li class="contact_phone">Phone : + 375 (44) 599 77 59</li>
+
+                </ul>
+            </section>
 
 
- </div>
+            <section class="skills">
+                <h3 class="text_underline"> SKILLS </h3>
+                <ul class="skills_item">
+
+                    <li class="skill_html"> HTML </li>
+                    <li class="skill_css"> CSS </li>
+                    <li class="skill_git"> GitHub </li>
+                    <li class="skill_js"> JavaScript </li>
+
+                </ul>
+            </section>
+        </aside>
+
+        <main class="main">
+            <section class="about" id="about">
+                <h3 class="text_underline"> ABOUT ME</h3>
+                <div class="about_description"> 
+                    I am 26 years old, I work as an inspector in the field of industrial 
+                    safety, previously I worked as a commissioning engineer for gas-using 
+                    equipment. Currently studying Front-end development and learning English. My strengths are hard work, the ability to work in a team, a high-quality solution to all tasks.
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <h3 class="text_underline"> EDUCATION</h3>
+                <div class="edu_description"> 
+                    Gomel State Technical University named after P.O.Sukhoi
+Power Engineering & Supply
+                </div>
+            </section>
+
+
+            <section class="lang" id="languages">
+                <h3  class="text_underline"> LANGUAGES</h3>
+                <div class="lang_description"> 
+                    <ul>
+                        <li>English A1</li>
+                        <li>Russian (native)</li>
+                    </ul>
+                    
+                </div>
+            </section>
+
+            <section class="code" id="code">
+                <h3 class="text_underline"> CODE</h3>
+
+                <!-- <div class="code_example">  -->
+                    <pre class="pre">
+                       <code>
+                        
+                        <span class="let">let</span> fruits<span class="equal"> = </span>[<span class="fruit">"apple"</span> , <span class="fruit">"pineapple"</span>, <span class="fruit">"orange"</span>];
+
+                        <span class="let">let</span> shoppingCart<span class="equal"> = </span><span class="fruit">"fruits"</span>;
+
+                        shoppingCart.<span class="push">push</span>("banan");
+
+                        <span class="push">alert</span>( fruits.length ); // 4
+
+                        </code>
+
+                    </pre>
+                <!-- </div> -->
+            </section>
+
+            <section id="projects">
+                <h3 class="text_underline">MY FUTYRE PROJECTS</h3>
+            </section>
+        </main>
+    </div>
+
+    <footer> 
+        <div class="footer_container">
+        <div class="footer_github">
+            <a href="https://github.com/Maksim186" >
+                 <img class="icon" src="github.svg" alt="icon">
+            </a>
+        </div>
+
+        <div class="footer_rs">
+            <a href="https://rs.school/js/" >
+                <img class="icon_rs" src="rs_school_js.svg" alt="icon">
+           </a>
+        </div>
+
+        </div>
+    </footer>
 </body>
+
 </html>
